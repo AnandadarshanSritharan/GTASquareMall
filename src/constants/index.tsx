@@ -1,9 +1,4 @@
-import { BotMessageSquare, Droplet } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+
 
 import { Briefcase } from "lucide-react";
 import { Store } from "lucide-react";
