@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection';
 import FeatureSection from './components/FeatureSection';
 import Footer from './components/Footer';
 import Shops from './Shops'; // New Shops component
+import ShopDetail from './components/ShopDetail';
 import { scaleUp, slideInLeft, slideInUp } from './animation';
 
 const App = () => {
@@ -54,6 +55,10 @@ const App = () => {
 
           {/* Shops Page */}
           <Route path="/shops" element={<Shops />} />
+ 
+        {/* Dynamic Shop Detail Page */}
+        <Route path="/shops/:shopId" element={<ShopDetail />} />
+  
         </Routes>
       </div>
     </Router>
