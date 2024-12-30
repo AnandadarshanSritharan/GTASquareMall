@@ -197,6 +197,12 @@ export const features = [
     description:
       "A diverse range of additional services and offerings available to meet various needs and interests. Explore our wide selection to find everything you’re looking for under one roof.",
   },
+  {
+    icon: <Store />,
+    text: "Convenience Store",
+    description:
+      "Offer lottery tickets, along with a wide selection of household goods and groceries for our customers.",
+  },
 ];
 
 export const checklistItems = [
